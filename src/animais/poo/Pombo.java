@@ -1,3 +1,5 @@
+package animais.poo;
+
 public class Pombo extends AnimalVoadorAB {
 
     private int comidaIngerida;

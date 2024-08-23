@@ -1,3 +1,5 @@
+package animais.poo;
+
 public interface AnimalIF {
     void comer(int quantidade);
     void moverse(int distancia);

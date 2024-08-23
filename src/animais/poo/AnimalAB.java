@@ -1,3 +1,5 @@
+package animais.poo;
+
 public abstract class AnimalAB implements AnimalIF {
     protected String nome;
     protected String tipoAnimal;

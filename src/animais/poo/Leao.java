@@ -1,3 +1,5 @@
+package animais.poo;
+
 public class Leao extends AnimalTerrestreAB {
 
     private int comidaIngerida;
