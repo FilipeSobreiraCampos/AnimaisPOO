@@ -7,4 +7,12 @@ public abstract class AnimalTerrestreAB extends AnimalAB {
         super(nome, tipoAnimal, idade, habitat, altura, peso);
         this.quantidadePatas = quantidadePatas;
     }
+
+    public int getQuantidadePatas() {
+        return quantidadePatas;
+    }
+
+    public void setQuantidadePatas(int quantidadePatas) {
+        this.quantidadePatas = quantidadePatas;
+    }
 }

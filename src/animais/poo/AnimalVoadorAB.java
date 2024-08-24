@@ -9,4 +9,20 @@ public abstract class AnimalVoadorAB extends AnimalAB {
         this.quantidadeAssas = quantidadeAssas;
         this.envergaduraAssa = envergaduraAssa;
     }
+
+    public int getQuantidadeAssas() {
+        return quantidadeAssas;
+    }
+
+    public void setQuantidadeAssas(int quantidadeAssas) {
+        this.quantidadeAssas = quantidadeAssas;
+    }
+
+    public double getEnvergaduraAssa() {
+        return envergaduraAssa;
+    }
+
+    public void setEnvergaduraAssa(double envergaduraAssa) {
+        this.envergaduraAssa = envergaduraAssa;
+    }
 }
